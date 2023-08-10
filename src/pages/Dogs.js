@@ -31,7 +31,7 @@ const Dogs = () => {
 
   const visibleDogs = dogs.filter(dog => dog.includes(dogId));
 
-  console.log('location: ', location);
+  // console.log('location: ', location);
   console.log('setDogs:', setDogs);
 
   return (
@@ -51,7 +51,9 @@ const Dogs = () => {
           visibleDogs.map(dog => {
             return (
               <li key={dog}>
-                <Link to={`${dog}`}>{dog}</Link>
+                <Link to={`${dog}`} state={{ from: location }}>
+                  {dog}
+                </Link>
               </li>
             );
           })
