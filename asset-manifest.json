@@ -1,13 +1,23 @@
 {
   "files": {
     "main.css": "/react-78-module-5/static/css/main.b5320759.css",
-    "main.js": "/react-78-module-5/static/js/main.4dba6681.js",
+    "main.js": "/react-78-module-5/static/js/main.766347f2.js",
+    "static/js/266.2ec2b929.chunk.js": "/react-78-module-5/static/js/266.2ec2b929.chunk.js",
+    "static/js/560.584fe9b6.chunk.js": "/react-78-module-5/static/js/560.584fe9b6.chunk.js",
+    "static/js/648.02306a61.chunk.js": "/react-78-module-5/static/js/648.02306a61.chunk.js",
+    "static/js/882.8772b41c.chunk.js": "/react-78-module-5/static/js/882.8772b41c.chunk.js",
+    "static/js/817.8cd1f337.chunk.js": "/react-78-module-5/static/js/817.8cd1f337.chunk.js",
     "index.html": "/react-78-module-5/index.html",
     "main.b5320759.css.map": "/react-78-module-5/static/css/main.b5320759.css.map",
-    "main.4dba6681.js.map": "/react-78-module-5/static/js/main.4dba6681.js.map"
+    "main.766347f2.js.map": "/react-78-module-5/static/js/main.766347f2.js.map",
+    "266.2ec2b929.chunk.js.map": "/react-78-module-5/static/js/266.2ec2b929.chunk.js.map",
+    "560.584fe9b6.chunk.js.map": "/react-78-module-5/static/js/560.584fe9b6.chunk.js.map",
+    "648.02306a61.chunk.js.map": "/react-78-module-5/static/js/648.02306a61.chunk.js.map",
+    "882.8772b41c.chunk.js.map": "/react-78-module-5/static/js/882.8772b41c.chunk.js.map",
+    "817.8cd1f337.chunk.js.map": "/react-78-module-5/static/js/817.8cd1f337.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b5320759.css",
-    "static/js/main.4dba6681.js"
+    "static/js/main.766347f2.js"
   ]
 }
