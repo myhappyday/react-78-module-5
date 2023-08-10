@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Link, useSearchParams } from 'react-router-dom';
+import { Link, useLocation, useSearchParams } from 'react-router-dom';
 
 const Dogs = () => {
   const [dogs, setDogs] = useState([
@@ -9,11 +9,11 @@ const Dogs = () => {
     'dog-4',
     'dog-5',
   ]);
+
+  const location = useLocation();
   const [searchParams, setSearchParams] = useSearchParams();
   const dogId = searchParams.get('dogId') ?? '';
 
-  console.log('setDogs:', setDogs);
-  
   // useEffect(() => {
   // HTTP запит, якщо потрібно
   // }, [])
@@ -24,9 +24,15 @@ const Dogs = () => {
       return setSearchParams({});
     }
     setSearchParams({ dogId: dogIdValue });
+
+    // const nextParams = name !== '' ? { name } : {};
+    // setSearchParams(nextParams);
   };
 
   const visibleDogs = dogs.filter(dog => dog.includes(dogId));
+
+  console.log('location: ', location);
+  console.log('setDogs:', setDogs);
 
   return (
     <div>

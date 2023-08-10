@@ -1,4 +1,4 @@
-import { Link, Outlet, useParams } from "react-router-dom";
+import { Link, Outlet, useParams } from 'react-router-dom';
 
 const DogDetails = () => {
   // const params = useParams();
@@ -13,6 +13,7 @@ const DogDetails = () => {
     <>
       {/* DogDetails: {dogId} */}
       <h1>DogDetails: {dogId}</h1>
+      <Link to="/dogs">Back to collection</Link>
       <ul>
         <li>
           <Link to="subbreeds">SubBreeds</Link>
